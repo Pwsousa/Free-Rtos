@@ -1,0 +1,11 @@
+../Core/Src/main.c:123:5:main	8	static
+../Core/Src/main.c:215:6:SystemClock_Config	88	static
+../Core/Src/main.c:273:13:MX_ETH_Init	8	static
+../Core/Src/main.c:322:13:MX_USART3_UART_Init	8	static
+../Core/Src/main.c:357:13:MX_USB_OTG_FS_PCD_Init	8	static
+../Core/Src/main.c:392:13:MX_GPIO_Init	56	static
+../Core/Src/main.c:453:6:Tarefa_01	24	static
+../Core/Src/main.c:482:6:Tarefa_02	24	static
+../Core/Src/main.c:514:6:Tarefa_03	32	static
+../Core/Src/main.c:547:6:HAL_TIM_PeriodElapsedCallback	16	static
+../Core/Src/main.c:564:6:Error_Handler	4	static,ignoring_inline_asm
