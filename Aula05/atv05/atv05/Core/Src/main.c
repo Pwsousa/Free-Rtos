@@ -526,12 +526,13 @@ void Tarefa_03(void *argument)
 		  osMutexRelease(Mutex01Handle);
 		  osDelay(1000);
 	  }
-	  if(count = osKernelGetTickCount() && count == 2000){
+	  count == osKernelGetTickCount();
+	  if(count == 2){
 		  char *str3 = "Alerta";
 		  HAL_UART_Transmit(&huart3, (uint8_t *)str3, strlen(str3),100);
+		  HAL_GPIO_TogglePin(GPIOB, GPIO_Pin_14);
+		  count = 0;
 	  }
-
-
   }
   /* USER CODE END Tarefa_03 */
 }
